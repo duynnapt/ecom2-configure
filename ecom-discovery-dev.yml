@@ -1,0 +1,10 @@
+ecom:
+    info:
+        description: "[DEVELOPMENT]This is good start, and is overriden by ecom-discovery, is used in ecom-discovery only"
+        version: V1.1
+
+server:
+  port: 9992
+ecom:
+  msg: "Local env in DEVELOPMENT Discovery"
+
