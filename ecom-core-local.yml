@@ -1,10 +1,10 @@
+server:
+  port: 8881
+
 ecom:
     info:
+        msg: "Local env in CORE"
         description: "[LOCAL]This is good start, and is overriden by ecom-core, is used in ecom-core only"
         version: V1.1
 
-server:
-  port: 8881
-ecom:
-  msg: "Local env in CORE"
 

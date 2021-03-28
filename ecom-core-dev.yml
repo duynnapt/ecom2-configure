@@ -1,9 +1,10 @@
-ecom:
-    info:
-        description: "[DEVELOPMENT]This is good start, and is overriden by ecom-core, is used in ecom-core only"
-        version: V1.1
 server:
   port: 9991
 ecom:
-  msg: "Development env in CORE"
+    info:
+        msg: "Development env in CORE"
+        description: "[DEVELOPMENT]This is good start, and is overriden by ecom-core, is used in ecom-core only"
+        version: V1.1
+
+
 
