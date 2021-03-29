@@ -3,3 +3,13 @@ ecom:
   info:
     description: "[DEVELOPMENT]This is good start, and is overriden by ecom-core, is used in ecom-core only"
     version: V1.1
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+  datasource:
+    driverClassName: ${ecom.db.driver}
+    username: ${ecom.db.user}
+    password: ${ecom.db.pass}
+    url: ${ecom.db.url}

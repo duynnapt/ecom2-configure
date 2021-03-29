@@ -1,8 +1,8 @@
 ecom:
   msg: "Local env in DEFAULT"
-    info:
-      description: "[DEFAULT]This is good start, and is overriden by ecom-core, is used in ecom-core only"
-      version: V1.1
+  info:
+    description: "[DEFAULT]This is good start, and is overriden by ecom-core, is used in ecom-core only"
+    version: V1.1
 
 spring:
   jpa:
