@@ -1,10 +1,15 @@
 ecom:
-    info:
-        description: "[LOCAL]This is good start, and is overriden by ecom-core, is used in ecom-core only"
-        version: V1.1
-
-server:
-  port: 8881
-ecom:
-  msg: "Local env in CORE"
-
+  info:
+    msg: "Local env in CORE"
+      description: "[LOCAL]This is good start, and is overriden by ecom-core, is used in ecom-core only"
+      version: V1.1
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+  datasource:
+    driverClassName: ${ecom.db.driver}
+    username: ${ecom.db.user}
+    password: ${ecom.db.pass}
+    url: ${ecom.db.url}
