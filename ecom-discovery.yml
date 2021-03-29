@@ -1,9 +1,6 @@
-server:
-  port: 7772
 ecom:
-    info:
-        msg: "Local env in DEFAULT Discovery"
-        description: "[DEFAULT]This is good start, and is overriden by ecom-discovery, is used in ecom-discovery only"
-        version: V1.1
-
+  msg: "Local env in DEFAULT Discovery"
+  info:
+    description: "[DEFAULT]This is good start, and is overriden by ecom-discovery, is used in ecom-discovery only"
+    version: V1.1
 
