@@ -1,3 +1,5 @@
+server:
+  port: 8881
 ecom:
   msg: "Local env in DEFAULT Discovery"
   info:
